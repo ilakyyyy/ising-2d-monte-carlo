@@ -1,0 +1,38 @@
+#Compiled objects and binaries
+*.o
+*.d
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+#Generated simulation outputs and plots
+results/*
+!results/.gitkeep
+plots/*
+!plots/.gitkeep
+*.bin
+*.zip
+
+#Editor & Python cache
+.vscode/
+__pycache__/
+*.pyc
+
+#LaTeX build files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+#Standalone binaries (Linux/macOS)
+ising
+ising_parallel
+analysis
+metropolis
+observables
+utils
